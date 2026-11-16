@@ -8,3 +8,5 @@ The application will be built using HTML, CSS, Bootstrap, and JavaScript for the
 Docker will be used for containerization, GitHub Actions for CI/CD automation, and Google Cloud Platform for deployment.
 AI integration will assist with ticket categorization, priority recommendations, and automated response suggestions.
 
+
+It's a big mess. I haven't figured out Jira.
