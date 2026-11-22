@@ -17,3 +17,4 @@ This MVP demonstrates the use of modern software development practices, includin
 
 
 It's a big mess. Doing better with everything!
+It should also be noted the deployment failed. I'll have to check on that.
