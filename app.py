@@ -216,6 +216,20 @@ def progress_ticket(ticket_id):
 
     return redirect("/")
 
+@app.route("/delete/<int:ticket_id>")
+def delete_ticket(ticket_id):
+    conn = sqlite3.connect(DATABASE)
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "DELETE FROM tickets WHERE id=?",
+        (ticket_id,)
+    )
+
+    conn.commit()
+    conn.close()
+
+    return redirect("/")
 
 @app.route("/close/<int:ticket_id>")
 def close_ticket(ticket_id):
